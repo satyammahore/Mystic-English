@@ -1,0 +1,278 @@
+
+[
+  {
+    "question": "The sun ______ in the east.",
+    "options": ["rise", "rises", "is rising", "rose"],
+    "answer": "rises"
+  },
+  {
+    "question": "My father ______ a newspaper daily.",
+    "options": ["read", "reads", "is reading", "has read"],
+    "answer": "reads"
+  },
+  {
+    "question": "Dogs ______ at strangers.",
+    "options": ["bark", "barks", "barking", "are barking"],
+    "answer": "bark"
+  },
+  {
+    "question": "He never ______ a lie.",
+    "options": ["tell", "tells", "telling", "told"],
+    "answer": "tells"
+  },
+  {
+    "question": "Look! The bird ______ in the sky.",
+    "options": ["flies", "fly", "is flying", "flew"],
+    "answer": "is flying"
+  },
+  {
+    "question": "Don't make a noise; the baby ______.",
+    "options": ["sleeps", "is sleeping", "slept", "has slept"],
+    "answer": "is sleeping"
+  },
+  {
+    "question": "They ______ football right now.",
+    "options": ["play", "plays", "are playing", "played"],
+    "answer": "are playing"
+  },
+  {
+    "question": "I ______ my work just now.",
+    "options": ["finish", "finished", "have finished", "am finishing"],
+    "answer": "have finished"
+  },
+  {
+    "question": "She ______ a new car recently.",
+    "options": ["buy", "buys", "has bought", "bought"],
+    "answer": "has bought"
+  },
+  {
+    "question": "They ______ to Mumbai.",
+    "options": ["go", "goes", "have gone", "went"],
+    "answer": "have gone"
+  },
+  {
+    "question": "______ you ever seen the Taj Mahal?",
+    "options": ["Has", "Have", "Did", "Do"],
+    "answer": "Have"
+  },
+  {
+    "question": "It ______ since morning.",
+    "options": ["is raining", "was raining", "has been raining", "rains"],
+    "answer": "has been raining"
+  },
+  {
+    "question": "He ______ in this factory for ten years.",
+    "options": ["is working", "was working", "has been working", "works"],
+    "answer": "has been working"
+  },
+  {
+    "question": "I ______ for you for two hours.",
+    "options": ["am waiting", "was waiting", "have been waiting", "wait"],
+    "answer": "have been waiting"
+  },
+  {
+    "question": "The boys ______ cricket since 4 O'clock.",
+    "options": ["play", "are playing", "have been playing", "played"],
+    "answer": "have been playing"
+  },
+  {
+    "question": "I ______ a letter to him yesterday.",
+    "options": ["write", "wrote", "written", "was writing"],
+    "answer": "wrote"
+  },
+  {
+    "question": "India ______ freedom in 1947.",
+    "options": ["get", "gets", "got", "has got"],
+    "answer": "got"
+  },
+  {
+    "question": "We ______ to the zoo last Sunday.",
+    "options": ["go", "went", "gone", "are going"],
+    "answer": "went"
+  },
+  {
+    "question": "Columbus ______ America.",
+    "options": ["discover", "discovers", "discovered", "has discovered"],
+    "answer": "discovered"
+  },
+  {
+    "question": "When I saw him, he ______ chess.",
+    "options": ["plays", "played", "was playing", "is playing"],
+    "answer": "was playing"
+  },
+  {
+    "question": "She ______ TV when the power went off.",
+    "options": ["watches", "watched", "was watching", "is watching"],
+    "answer": "was watching"
+  },
+  {
+    "question": "While I ______, I saw a snake.",
+    "options": ["run", "ran", "was running", "am running"],
+    "answer": "was running"
+  },
+  {
+    "question": "They ______ their lunch when I reached there.",
+    "options": ["were taking", "are taking", "took", "take"],
+    "answer": "were taking"
+  },
+  {
+    "question": "The patient ______ before the doctor came.",
+    "options": ["died", "has died", "had died", "dies"],
+    "answer": "had died"
+  },
+  {
+    "question": "The train ______ before we reached the station.",
+    "options": ["left", "has left", "had left", "leaves"],
+    "answer": "had left"
+  },
+  {
+    "question": "I ______ my work before he arrived.",
+    "options": ["finished", "have finished", "had finished", "finish"],
+    "answer": "had finished"
+  },
+  {
+    "question": "She told me that she ______ her purse.",
+    "options": ["lost", "loses", "had lost", "has lost"],
+    "answer": "had lost"
+  },
+  {
+    "question": "When we reached the cinema, the film ______.",
+    "options": ["started", "starts", "had started", "has started"],
+    "answer": "had started"
+  },
+  {
+    "question": "He ______ for two hours when I met him.",
+    "options": ["studied", "was studying", "has been studying", "had been studying"],
+    "answer": "had been studying"
+  },
+  {
+    "question": "They ______ in that house for five years before they moved.",
+    "options": ["live", "lived", "have been living", "had been living"],
+    "answer": "had been living"
+  },
+  {
+    "question": "I ______ to you tomorrow.",
+    "options": ["talk", "talked", "will talk", "am talking"],
+    "answer": "will talk"
+  },
+  {
+    "question": "If you work hard, you ______.",
+    "options": ["pass", "passed", "will pass", "would pass"],
+    "answer": "will pass"
+  },
+  {
+    "question": "I ______ this book by next Monday.",
+    "options": ["will finish", "will be finishing", "will have finished", "finished"],
+    "answer": "will have finished"
+  },
+  {
+    "question": "At this time tomorrow, I ______ in a train.",
+    "options": ["will travel", "will be travelling", "travel", "travelled"],
+    "answer": "will be travelling"
+  },
+  {
+    "question": "We ______ the match before it rains.",
+    "options": ["will win", "won", "will have won", "win"],
+    "answer": "will have won"
+  },
+  {
+    "question": "If it rains, I ______ at home.",
+    "options": ["stay", "stayed", "will stay", "would stay"],
+    "answer": "will stay"
+  },
+  {
+    "question": "Unless you study, you ______ fail.",
+    "options": ["will", "would", "shall", "can"],
+    "answer": "will"
+  },
+  {
+    "question": "I wish I ______ a king.",
+    "options": ["am", "was", "were", "have been"],
+    "answer": "were"
+  },
+  {
+    "question": "He speaks as though he ______ everything.",
+    "options": ["knows", "knew", "known", "knowing"],
+    "answer": "knew"
+  },
+  {
+    "question": "If I had money, I ______ a car.",
+    "options": ["will buy", "would buy", "would have bought", "bought"],
+    "answer": "would buy"
+  },
+  {
+    "question": "If he had run fast, he ______ the train.",
+    "options": ["will catch", "would catch", "would have caught", "caught"],
+    "answer": "would have caught"
+  },
+  {
+    "question": "Identify the tense: 'I have been living here since 2015.'",
+    "options": ["Present Continuous", "Present Perfect", "Present Perfect Continuous", "Past Perfect Continuous"],
+    "answer": "Present Perfect Continuous"
+  },
+  {
+    "question": "Identify the tense: 'They will have reached home by now.'",
+    "options": ["Future Simple", "Future Continuous", "Future Perfect", "Future Perfect Continuous"],
+    "answer": "Future Perfect"
+  },
+  {
+    "question": "Choose the correct negative form of: 'He writes a letter.'",
+    "options": ["He not writes a letter.", "He do not writes a letter.", "He does not write a letter.", "He does not writes a letter."],
+    "answer": "He does not write a letter."
+  },
+  {
+    "question": "Choose the correct interrogative form of: 'They played well.'",
+    "options": ["Do they play well?", "Did they played well?", "Did they play well?", "Are they play well?"],
+    "answer": "Did they play well?"
+  },
+  {
+    "question": "He ______ (build) a new house these days.",
+    "options": ["builds", "is building", "built", "has built"],
+    "answer": "is building"
+  },
+  {
+    "question": "Water ______ at 100 degrees Celsius.",
+    "options": ["boil", "boils", "is boiling", "boiled"],
+    "answer": "boils"
+  },
+  {
+    "question": "The earth ______ round the sun.",
+    "options": ["move", "moves", "moved", "is moving"],
+    "answer": "moves"
+  },
+  {
+    "question": "By 2030, India ______ a superpower.",
+    "options": ["will become", "will be becoming", "will have become", "became"],
+    "answer": "will have become"
+  },
+  {
+    "question": "I ______ (read) a book when he came in.",
+    "options": ["read", "am reading", "was reading", "have read"],
+    "answer": "was reading"
+  },
+  {
+    "question": "She usually ______ Hindi.",
+    "options": ["speak", "speaks", "is speaking", "spoke"],
+    "answer": "speaks"
+  },
+  {
+    "question": "My brother ______ the exam last year.",
+    "options": ["pass", "passes", "passed", "has passed"],
+    "answer": "passed"
+  },
+  {
+    "question": "I ______ him since 2020.",
+    "options": ["know", "am knowing", "have known", "knew"],
+    "answer": "have known"
+  },
+  {
+    "question": "As soon as the teacher entered the class, the students ______ up.",
+    "options": ["stand", "stood", "have stood", "are standing"],
+    "answer": "stood"
+  },
+  {
+    "question": "We ______ our lunch an hour ago.",
+    "options": ["finish", "finished", "have finished", "had finished"],
+    "answer": "finished"
+  }
+]

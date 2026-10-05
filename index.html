@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MysticEnglish</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="video-container">
+        <video autoplay muted loop playsinline id="bg-video">
+            <source src="assets/backvideo.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="ui-container">
+        <div class="logo-container">
+            <h1 class="logo-text">Mystic<span class="logo-highlight">English</span></h1>
+            <h3 class="logo-text" id="sat">Satyam mahore</h3>
+            <div class="logo-glow"></div>
+        </div>
+
+        <div class="button-container">
+            <button class="capsule-btn" onclick="openBook('tense')">
+                <span class="btn-icon">✦</span> 1. Tense
+            </button>
+
+            <button class="capsule-btn" onclick="toggleSubMenu()">
+                <span class="btn-icon">✦</span> 2. Grammar <span class="arrow">▼</span>
+            </button>
+
+            <div class="submenu" id="grammarSubMenu">
+                <button class="capsule-btn small" onclick="openBook('model')">1. Model</button>
+                <button class="capsule-btn small" onclick="openBook('preposition')">2. Preposition</button>
+                <button class="capsule-btn small" onclick="openBook('article')">3. Article</button>
+                <button class="capsule-btn small" onclick="openBook('determiners')">4. Determiners</button>
+            </div>
+
+            <button class="capsule-btn" onclick="toggleNotesMenu()">
+                <span class="btn-icon">✦</span> 3. Notes <span class="notes-arrow">▼</span>
+            </button>
+
+            <div class="submenu" id="notesSubMenu">
+                <button class="capsule-btn small" onclick="openPdfModal('pdfs/application.pdf', 'Application')">1.
+                    Application</button>
+                <button class="capsule-btn small" onclick="openPdfModal('pdfs/essay.pdf', 'Essay')">2. Essay</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="book-overlay" id="bookOverlay">
+        <button class="close-btn" onclick="closeBook()">✖</button>
+        <div class="book-wrapper">
+            <div id="magicalBook"></div>
+        </div>
+    </div>
+
+    <div class="quiz-overlay" id="quizOverlay">
+        <div class="quiz-modal">
+            <button class="close-btn" onclick="closeQuiz()">✖</button>
+            <h2 id="quizTitle" class="quiz-title">QUIZ ✦</h2>
+            <div id="quizContent" class="quiz-scroll-area">
+            </div>
+        </div>
+    </div>
+
+    <div class="pdf-overlay" id="pdfOverlay">
+        <div class="pdf-modal">
+            <button class="close-btn" onclick="closePdfModal()">✖</button>
+            <h2 id="pdfTitle" class="quiz-title">PDF TITLE ✦</h2>
+
+            <div class="pdf-container">
+                <iframe id="pdfViewer" src="" width="100%" height="100%"
+                    style="border: none; border-radius: 10px;"></iframe>
+            </div>
+
+            <div style="text-align: center; margin-top: 15px;">
+                <a id="pdfDownloadLink" href="" download class="capsule-btn small"
+                    style="display: inline-block; text-decoration: none; text-align: center; box-shadow: 0 0 15px #a855f7; width: auto; padding: 10px 25px;">
+                    Download PDF 📥
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
