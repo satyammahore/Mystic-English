@@ -73,7 +73,7 @@ async function openBook(topic) {
         pageFlipInstance = new St.PageFlip(bookEl, {
             width: 400, height: 500, size: "stretch", 
             minWidth: 300, maxWidth: 400, minHeight: 400, maxHeight: 500,
-            showCover: false, mobileScrollSupport: true, usePortrait: true 
+            showCover: false, mobileScrollSupport: true, usePortrait: true ,
             swipeDistance: 100
         });
 
