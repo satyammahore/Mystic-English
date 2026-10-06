@@ -102,12 +102,12 @@
   },
   {
     "question": "You ....... hurry; there is plenty of time.",
-    "options": ["needn't", "should", "mustn't", "can't"],
-    "answer": "needn't"
+    "options": ["needn’t", "should", "mustn’t", "can’t"],
+    "answer": "needn’t"
   },
   {
     "question": "You ....... work hard for a better tomorrow.",
-    "options": ["needn't", "should", "mustn't", "can't"],
+    "options": ["needn’t", "should", "mustn’t", "can’t"],
     "answer": "should"
   },
   {
@@ -127,13 +127,13 @@
   },
   {
     "question": "You ....... run. The train is late by an hour.",
-    "options": ["mustn't", "needn't", "shouldn't", "can't"],
+    "options": ["mustn’t", "needn’t", "shouldn’t", "can’t"],
     "answer": "needn't"
   },
   {
     "question": "You ....... use my towel in future.",
-    "options": ["mustn't", "needn't", "won't", "shan't"],
-    "answer": "mustn't"
+    "options": ["mustn’t", "needn’t", "won’t", "shan’t"],
+    "answer": "mustn’t"
   },
   {
     "question": "We ....... to respect our elders.",
