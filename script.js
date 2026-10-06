@@ -74,6 +74,7 @@ async function openBook(topic) {
             width: 400, height: 500, size: "stretch", 
             minWidth: 300, maxWidth: 400, minHeight: 400, maxHeight: 500,
             showCover: false, mobileScrollSupport: true, usePortrait: true 
+            swipeDistance: 100
         });
 
         pageFlipInstance.loadFromHTML(document.querySelectorAll('.page'));
