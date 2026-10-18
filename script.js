@@ -243,7 +243,7 @@ async function openBook(topic) {
     const bookEl = $("magicalBook");
 
     try {
-        const response = await fetch("data/" + formatFileName(topic, "data"));
+        const response = await fetch("Data/" + formatFileName(topic, "data"));
         if (!response.ok) throw new Error("Lesson file not found");
 
         const contentPages = await response.json();
@@ -348,7 +348,7 @@ async function openQuiz(topic) {
     refreshHome();
 
     try {
-        const response = await fetch("data/" + formatFileName(topic, "quiz"));
+        const response = await fetch("Data/" + formatFileName(topic, "quiz"));
         if (!response.ok) throw new Error("Quiz file not found");
 
         const quizData = await response.json();
