@@ -1,0 +1,153 @@
+
+[
+  {
+    "question": "..... cow is ..... useful animal.",
+    "options": ["A, an", "The, a", "The, the", "A, a"],
+    "answer": "The, a"
+  },
+  {
+    "question": "We shall return after ..... dinner.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article"
+  },
+  {
+    "question": "..... school will shortly close for ..... Christmas holidays.",
+    "options": ["The, the", "A, the", "The, a", "No article, the"],
+    "answer": "The, the"
+  },
+  {
+    "question": "My father teaches in ....... university.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a"
+  },
+  {
+    "question": "Chinese is one of ....... most difficult languages to learn.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the"
+  },
+  {
+    "question": "Aastha is ...... M. Sc. from Gaur University.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an"
+  },
+  {
+    "question": "The farmer bought ..... cow, ...... goat and ...... ox.",
+    "options": ["a, a, a", "a, an, the", "a, a, an", "the, the, an"],
+    "answer": "a, a, an"
+  },
+  {
+    "question": "Some of ...... most important things made from coal-tar are dyes.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the"
+  },
+  {
+    "question": "....... king had three daughters. ........ first two daughters were cunning but ........ third one was honest and simple.",
+    "options": ["The, The, the", "A, The, the", "A, A, the", "The, A, a"],
+    "answer": "A, The, the"
+  },
+  {
+    "question": "He is ...... honour to his profession.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an"
+  },
+  {
+    "question": "Italy is ...... European country.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a"
+  },
+  {
+    "question": "....... darkest cloud has a silver lining.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The"
+  },
+  {
+    "question": "Everyone respects .......... honest person.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an"
+  },
+  {
+    "question": "Mount Everest is ................... highest peak in the world. (2022)",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the"
+  },
+  {
+    "question": "He is ..... MLA.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an"
+  },
+  {
+    "question": "Copper is ..... useful metal.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a"
+  },
+  {
+    "question": "..... sun shines brightly.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The"
+  },
+  {
+    "question": "I found ..... one-rupee coin.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a"
+  },
+  {
+    "question": "She is ..... untidy girl.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an"
+  },
+  {
+    "question": "French is ..... easy language.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an"
+  },
+  {
+    "question": "..... Ganga is a holy river.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The"
+  },
+  {
+    "question": "He eats ..... apple daily.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an"
+  },
+  {
+    "question": "Ram is ..... best student in the class.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the"
+  },
+  {
+    "question": "I saw ..... one-eyed man.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a"
+  },
+  {
+    "question": "..... earth revolves around the sun.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The"
+  },
+  {
+    "question": "Kalidas is ..... Shakespeare of India.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the"
+  },
+  {
+    "question": "He is ..... European.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a"
+  },
+  {
+    "question": "Let us discuss ..... matter seriously.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the"
+  },
+  {
+    "question": "..... rich should help the poor.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The"
+  },
+  {
+    "question": "Gold is ..... precious metal.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a"
+  }
+]

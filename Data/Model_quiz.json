@@ -1,0 +1,143 @@
+
+[
+  {
+    "question": "We ....... obey the rules of the road.",
+    "options": ["should", "would", "ought to", "must"],
+    "answer": "must"
+  },
+  {
+    "question": "If I were rich, I ....... give my money to the poor.",
+    "options": ["can", "would", "may", "must"],
+    "answer": "would"
+  },
+  {
+    "question": "Our cricket team is the strongest team. So we ....... win the match.",
+    "options": ["could", "must", "may", "might"],
+    "answer": "must"
+  },
+  {
+    "question": "You have a very bad cough. You ....... give up smoking if you want to prolong your life.",
+    "options": ["can", "must", "should", "will"],
+    "answer": "must"
+  },
+  {
+    "question": "....... God bless you !",
+    "options": ["Can", "Will", "May", "Should"],
+    "answer": "May"
+  },
+  {
+    "question": "If you want to become healthy, you ....... play games.",
+    "options": ["should", "must", "can", "could"],
+    "answer": "should"
+  },
+  {
+    "question": "One who is born ....... die one day.",
+    "options": ["may", "shall", "can", "might"],
+    "answer": "shall"
+  },
+  {
+    "question": "She worked hard but ....... not pass the examination.",
+    "options": ["could", "can", "may", "should"],
+    "answer": "could"
+  },
+  {
+    "question": "There are clouds in the sky. It ....... rain today.",
+    "options": ["can", "may", "might", "must"],
+    "answer": "may"
+  },
+  {
+    "question": "Your father is seriously ill. You ....... call the doctor immediately.",
+    "options": ["can", "must", "should", "ought"],
+    "answer": "must"
+  },
+  {
+    "question": "Work hard, lest you ....... fail. (2025)",
+    "options": ["can", "should", "will", "may"],
+    "answer": "should"
+  },
+  {
+    "question": "....... I borrow this book for a day ?",
+    "options": ["Can", "Dare", "Need", "Must"],
+    "answer": "Can"
+  },
+  {
+    "question": "The ........ class was busy with the project. (2024)",
+    "options": ["all", "whole", "some", "every"],
+    "answer": "whole"
+  },
+  {
+    "question": "Harish ........ swim when he was young.",
+    "options": ["might", "would", "could", "can"],
+    "answer": "could"
+  },
+  {
+    "question": "He said that I ........ use his telephone at any time.",
+    "options": ["dare", "might", "should", "must"],
+    "answer": "might"
+  },
+  {
+    "question": "....... I come in sir ? (2023)",
+    "options": ["Can", "May", "Could", "Will"],
+    "answer": "May"
+  },
+  {
+    "question": "Cool wind is blowing. It ....... rain tonight.",
+    "options": ["may", "can", "must", "will"],
+    "answer": "may"
+  },
+  {
+    "question": "I ....... like to know who she is ?",
+    "options": ["should", "would", "can", "may"],
+    "answer": "would"
+  },
+  {
+    "question": "....... you mind moving a bit.",
+    "options": ["Should", "Would", "Could", "May"],
+    "answer": "Would"
+  },
+  {
+    "question": "She told me what I ....... do then.",
+    "options": ["should", "would", "can", "may"],
+    "answer": "should"
+  },
+  {
+    "question": "You ....... hurry; there is plenty of time.",
+    "options": ["needn't", "should", "mustn't", "can't"],
+    "answer": "needn't"
+  },
+  {
+    "question": "You ....... work hard for a better tomorrow.",
+    "options": ["needn't", "should", "mustn't", "can't"],
+    "answer": "should"
+  },
+  {
+    "question": "The traffic rules ....... be followed. (2022)",
+    "options": ["must", "could", "can", "might"],
+    "answer": "must"
+  },
+  {
+    "question": "We eat so that we ....... live.",
+    "options": ["may", "must", "can", "should"],
+    "answer": "may"
+  },
+  {
+    "question": "We ....... pay our taxes in time.",
+    "options": ["could", "must", "can", "might"],
+    "answer": "must"
+  },
+  {
+    "question": "You ....... run. The train is late by an hour.",
+    "options": ["mustn't", "needn't", "shouldn't", "can't"],
+    "answer": "needn't"
+  },
+  {
+    "question": "You ....... use my towel in future.",
+    "options": ["mustn't", "needn't", "won't", "shan't"],
+    "answer": "mustn't"
+  },
+  {
+    "question": "We ....... to respect our elders.",
+    "options": ["must", "should", "ought", "can"],
+    "answer": "ought"
+  }
+]

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="MysticEnglish by Satyam Mahore: English grammar lessons in Hindi and English, with quizzes and downloadable PDF notes.">
+    <meta name="theme-color" content="#2e1065">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="MysticEnglish">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <title>MysticEnglish | Learn English grammar in Hindi and English</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Noto+Sans+Devanagari:wght@400;600&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background video: webm first, mp4 fallback for Safari/iOS. Poster shows while loading or when video is off. -->
+    <div class="video-container">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/poster.jpg" id="bg-video"
+            aria-hidden="true">
+            <source src="assets/backvideo1.webm" type="video/webm">
+            <source src="assets/backvideo1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <main class="ui-container">
+        <div class="logo-container">
+            <h1 class="logo-text">Mystic<span class="logo-highlight">English</span></h1>
+            <h2 class="logo-text" id="sat">Satyam Mahore</h2>
+            <div class="logo-glow"></div>
+        </div>
+
+        <nav class="button-container" aria-label="Main menu">
+            <button class="capsule-btn" data-topic="tense" onclick="openBook('tense')">
+                <span class="btn-icon" aria-hidden="true">✦</span> Tenses
+                <span class="status"></span>
+            </button>
+
+            <button class="capsule-btn" aria-expanded="false" aria-controls="grammarSubMenu"
+                onclick="toggleMenu('grammarSubMenu', this)">
+                <span class="btn-icon" aria-hidden="true">✦</span> Grammar
+                <span class="arrow" aria-hidden="true">▼</span>
+            </button>
+
+            <div class="submenu" id="grammarSubMenu">
+                <button class="capsule-btn small" data-topic="model" onclick="openBook('model')">Modals<span class="status"></span></button>
+                <button class="capsule-btn small" data-topic="preposition" onclick="openBook('preposition')">Prepositions<span class="status"></span></button>
+                <button class="capsule-btn small" data-topic="article" onclick="openBook('article')">Articles<span class="status"></span></button>
+                <button class="capsule-btn small" data-topic="determiners" onclick="openBook('determiners')">Determiners<span class="status"></span></button>
+            </div>
+
+            <button class="capsule-btn" aria-expanded="false" aria-controls="notesSubMenu"
+                onclick="toggleMenu('notesSubMenu', this)">
+                <span class="btn-icon" aria-hidden="true">✦</span> Notes
+                <span class="arrow" aria-hidden="true">▼</span>
+            </button>
+
+            <div class="submenu" id="notesSubMenu">
+                <button class="capsule-btn small"
+                    onclick="openPdfModal('pdfs/application.pdf', 'Application Writing')">Application Writing</button>
+                <button class="capsule-btn small" onclick="openPdfModal('pdfs/essay.pdf', 'Essay')">Essay</button>
+            </div>
+
+            <button class="capsule-btn" id="reviseBtn" onclick="openRevise()">
+                <span class="btn-icon" aria-hidden="true">✦</span> Revise
+                <span class="status status-count" id="reviseCount"></span>
+            </button>
+        </nav>
+
+        <!-- Streak, WhatsApp share, install -->
+        <div class="home-extras">
+            <p class="chip" id="streakChip">🔥 Start a streak today</p>
+            <button class="chip chip-btn" id="shareBtn" type="button" onclick="shareSite()">Share on WhatsApp</button>
+            <button class="chip chip-btn" id="installBtn" type="button" hidden>Install app</button>
+        </div>
+    </main>
+
+    <!-- Lesson book -->
+    <div class="book-overlay" id="bookOverlay">
+        <button class="close-btn" aria-label="Close lesson" onclick="closeBook()">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+        </button>
+        <div class="book-wrapper" role="dialog" aria-modal="true" aria-label="Lesson">
+            <div id="magicalBook"></div>
+        </div>
+    </div>
+
+    <!-- Quiz -->
+    <div class="quiz-overlay" id="quizOverlay">
+        <div class="quiz-modal" role="dialog" aria-modal="true" aria-labelledby="quizTitle">
+            <button class="close-btn" aria-label="Close quiz" onclick="closeQuiz()">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+            </button>
+            <h2 id="quizTitle" class="modal-title">Quiz ✦</h2>
+
+            <div class="quiz-progress" id="quizProgress" hidden>
+                <div class="quiz-progress-bar"><span id="quizProgressFill"></span></div>
+                <p id="quizProgressText"></p>
+            </div>
+
+            <div id="quizContent" class="quiz-scroll-area"></div>
+        </div>
+    </div>
+
+    <!-- PDF notes -->
+    <div class="pdf-overlay" id="pdfOverlay">
+        <div class="pdf-modal" id="pdfModal" role="dialog" aria-modal="true" aria-labelledby="pdfTitle">
+            <button class="close-btn" aria-label="Close notes" onclick="closePdfModal()">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+            </button>
+            <h2 id="pdfTitle" class="modal-title">Notes ✦</h2>
+
+            <!-- Desktop: inline preview -->
+            <div class="pdf-container" id="pdfContainer">
+                <iframe id="pdfViewer" title="PDF preview" src="about:blank"></iframe>
+            </div>
+
+            <!-- Phones and tablets: no empty preview box, just a clear card -->
+            <div class="pdf-fallback" id="pdfFallback" hidden>
+                <div class="pdf-icon" aria-hidden="true">PDF</div>
+                <p class="pdf-file-name" id="pdfFileName"></p>
+                <p class="pdf-hint">Preview isn't available on this device. Open the file or save it to read offline.</p>
+            </div>
+
+            <div class="pdf-actions">
+                <a id="pdfOpenLink" class="action-btn" href="#" target="_blank" rel="noopener">Open</a>
+                <a id="pdfDownloadLink" class="action-btn primary" href="#" download>Download PDF</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <noscript>
+        <p style="position:fixed;bottom:20px;left:20px;right:20px;color:#fff;text-align:center;">
+            MysticEnglish needs JavaScript to open lessons and quizzes.
+        </p>
+    </noscript>
+
+    <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

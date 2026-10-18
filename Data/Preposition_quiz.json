@@ -1,0 +1,203 @@
+
+[
+  {
+    "question": "Hari has been playing ............. two hours.",
+    "options": ["for", "since", "from", "in"],
+    "answer": "for"
+  },
+  {
+    "question": "He is angry ............. me.",
+    "options": ["to", "with", "at", "on"],
+    "answer": "with"
+  },
+  {
+    "question": "The lion jumped ........... the deer.",
+    "options": ["on", "upon", "over", "at"],
+    "answer": "upon"
+  },
+  {
+    "question": "Tom is hiding ........... the box. (2024)",
+    "options": ["in", "on", "into", "at"],
+    "answer": "in"
+  },
+  {
+    "question": "They reached the Bhil village ............. 9 O'clock.",
+    "options": ["in", "at", "on", "by"],
+    "answer": "at"
+  },
+  {
+    "question": "Gita was sitting ........ me.",
+    "options": ["beside", "besides", "next", "by"],
+    "answer": "beside"
+  },
+  {
+    "question": "Your sister is angry ........... you.",
+    "options": ["with", "from", "to", "at"],
+    "answer": "with"
+  },
+  {
+    "question": "She cannot finish this work ....... time.",
+    "options": ["on", "at", "in", "by"],
+    "answer": "in"
+  },
+  {
+    "question": "Your letter is full .......... mistakes.",
+    "options": ["of", "with", "from", "in"],
+    "answer": "of"
+  },
+  {
+    "question": "Place the pen ............... the table. (2023)",
+    "options": ["in", "inside", "on", "at"],
+    "answer": "on"
+  },
+  {
+    "question": "Lincoln was born ......... Thursday.",
+    "options": ["in", "on", "at", "by"],
+    "answer": "on"
+  },
+  {
+    "question": "He went ........ the hill.",
+    "options": ["up", "down", "on", "at"],
+    "answer": "up"
+  },
+  {
+    "question": "He lives .............. Mumbai.",
+    "options": ["at", "in", "on", "into"],
+    "answer": "in"
+  },
+  {
+    "question": "Yesterday Mohan fell .......... the well.",
+    "options": ["in", "into", "on", "under"],
+    "answer": "into"
+  },
+  {
+    "question": "Suman and Rajesh went to see the marble rocks ......... Jabalpur.",
+    "options": ["at", "in", "on", "to"],
+    "answer": "in"
+  },
+  {
+    "question": "The teacher was angry ......... Rahul. (2025)",
+    "options": ["on", "at", "with", "to"],
+    "answer": "with"
+  },
+  {
+    "question": "He is good .......... English.",
+    "options": ["in", "at", "on", "with"],
+    "answer": "at"
+  },
+  {
+    "question": "He met me ........... 15th August.",
+    "options": ["in", "on", "at", "from"],
+    "answer": "on"
+  },
+  {
+    "question": "I don't want .......... take it back.",
+    "options": ["to", "for", "with", "at"],
+    "answer": "to"
+  },
+  {
+    "question": "Put your signature ........ ink.",
+    "options": ["with", "by", "in", "on"],
+    "answer": "in"
+  },
+  {
+    "question": "The cat jumped .............. the mouse. (2022)",
+    "options": ["at", "on", "upon", "over"],
+    "answer": "on"
+  },
+  {
+    "question": "Our classes begin ........ 9 a.m.",
+    "options": ["on", "at", "for", "in"],
+    "answer": "at"
+  },
+  {
+    "question": "We will be home ............. 5 O'clock.",
+    "options": ["at", "by", "on", "in"],
+    "answer": "by"
+  },
+  {
+    "question": "The party is ............. Sunday.",
+    "options": ["at", "on", "for", "in"],
+    "answer": "on"
+  },
+  {
+    "question": "I have not seen her ........... March.",
+    "options": ["for", "since", "from", "in"],
+    "answer": "since"
+  },
+  {
+    "question": "Can you jump ........... the fence ?",
+    "options": ["over", "into", "on", "above"],
+    "answer": "over"
+  },
+  {
+    "question": "He placed his book ............... the table. (2024)",
+    "options": ["in", "on", "at", "over"],
+    "answer": "on"
+  },
+  {
+    "question": "Her boy was ............... the chair.",
+    "options": ["in", "on", "at", "into"],
+    "answer": "on"
+  },
+  {
+    "question": "The boy fell ........... the river.",
+    "options": ["in", "into", "on", "under"],
+    "answer": "into"
+  },
+  {
+    "question": "I moved ........... Agra in 2015.",
+    "options": ["to", "on", "up", "in"],
+    "answer": "to"
+  },
+  {
+    "question": "They climbed ............. the tree.",
+    "options": ["in", "up", "with", "on"],
+    "answer": "up"
+  },
+  {
+    "question": "The child jumped ............ the river.",
+    "options": ["into", "of", "in", "on"],
+    "answer": "into"
+  },
+  {
+    "question": "There are twelve months ........... a year.",
+    "options": ["of", "with", "in", "for"],
+    "answer": "in"
+  },
+  {
+    "question": "Radha cut her finger ............ a knife.",
+    "options": ["with", "by", "in", "from"],
+    "answer": "with"
+  },
+  {
+    "question": "Raja died ........... fever.",
+    "options": ["of", "on", "with", "from"],
+    "answer": "of"
+  },
+  {
+    "question": "It was nine ........... my watch.",
+    "options": ["on", "by", "in", "at"],
+    "answer": "by"
+  },
+  {
+    "question": "I shall go ........... two hours.",
+    "options": ["after", "since", "till", "for"],
+    "answer": "after"
+  },
+  {
+    "question": "My sister slept ............ 7 o'clock.",
+    "options": ["since", "till", "by", "for"],
+    "answer": "till"
+  },
+  {
+    "question": "It has been raining ........... morning.",
+    "options": ["till", "since", "up", "for"],
+    "answer": "since"
+  },
+  {
+    "question": "He is dependent ........... his parents.",
+    "options": ["on", "in", "by", "at"],
+    "answer": "on"
+  }
+]
